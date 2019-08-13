@@ -1,6 +1,6 @@
 # boba_HWPtoPDF
 
-개발 환경
+## 개발 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ||       Version    |      
 |---| --------------------- |
@@ -9,8 +9,8 @@
 |ubuntu|     16.04      |   
 
 
-<hr>
-## hwp -> xhtml<br>
+
+## hwp -> xhtml
 git clone https://github.com/mete0r/pyhwp.git
 <br>
 <hr>
@@ -18,8 +18,8 @@ xhtml -> pdf<br>
 https://www.techoism.com/convert-html-document-to-pdf-on-ubuntu/
 
 <br>
-<hr>
-## 환경 변수 설정<br>
+
+## 환경 변수 설정
 [//]: # ({x-version-update-start:google-cloud-bom:released})
 ```xml
 nano ~/.bashrc
