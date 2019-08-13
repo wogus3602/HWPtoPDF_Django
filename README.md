@@ -10,7 +10,7 @@
 
 
 <hr>
-hwp -> xhtml<br>
+## hwp -> xhtml<br>
 git clone https://github.com/mete0r/pyhwp.git
 <br>
 <hr>
@@ -19,11 +19,7 @@ https://www.techoism.com/convert-html-document-to-pdf-on-ubuntu/
 
 <br>
 <hr>
-환경 변수 설정<br>
-nano ~/.bashrc<br>
-export PATH="$PATH:/root/.local/bin"<br>
-export PATH="$PATH:/usr/local/bin"<br>
-
+## 환경 변수 설정<br>
 [//]: # ({x-version-update-start:google-cloud-bom:released})
 ```xml
 nano ~/.bashrc
