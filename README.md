@@ -26,3 +26,8 @@ nano ~/.bashrc
 export PATH="$PATH:/root/.local/bin"
 export PATH="$PATH:/usr/local/bin"
 ```
+
+
+---
+
+![post_result](./post_result.png)
