@@ -23,3 +23,10 @@ https://www.techoism.com/convert-html-document-to-pdf-on-ubuntu/
 nano ~/.bashrc<br>
 export PATH="$PATH:/root/.local/bin"<br>
 export PATH="$PATH:/usr/local/bin"<br>
+
+[//]: # ({x-version-update-start:google-cloud-bom:released})
+```xml
+nano ~/.bashrc
+export PATH="$PATH:/root/.local/bin"
+export PATH="$PATH:/usr/local/bin"
+```
