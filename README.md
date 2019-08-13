@@ -8,7 +8,7 @@
 |django|     2.2.4      |  
 |ubuntu|     16.04      |   
 
-<br>
+---
 
 ## hwp -> xhtml
 git clone https://github.com/mete0r/pyhwp.git
@@ -17,7 +17,7 @@ git clone https://github.com/mete0r/pyhwp.git
 xhtml -> pdf<br>
 https://www.techoism.com/convert-html-document-to-pdf-on-ubuntu/
 
-<br>
+---
 
 ## 환경 변수 설정
 [//]: # ({x-version-update-start:google-cloud-bom:released})
