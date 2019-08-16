@@ -26,7 +26,7 @@ def echo(req):
 
 	call('hwp5html '+hwpName, shell=True)			#transformation
 	call('wkhtmltopdf.sh -s A5 ./'+fileN[0]+'/index.xhtml '+pdfName, shell=True)
-	call('rm -rf '+fileN[0]+' '+'hwpName', shell=True)		#remove files in server
+	call('rm -rf '+fileN[0]+' '+hwpName, shell=True)		#remove files in server
 
 	uploadfile = "./"+pdfName
 	storage.child(pdfName).put(uploadfile)
