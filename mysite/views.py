@@ -33,7 +33,7 @@ def echo(req):
 	f.write(modifyCss)
 	f.close
 
-	call('wkhtmltopdf.sh -s A5 ./'+fileN[0]+'/index.xhtml '+pdfName, shell=True)
+	call('wkhtmltopdf -s A5 ./'+fileN[0]+'/index.xhtml '+pdfName, shell=True)
 	call('rm -rf '+fileN[0]+' '+hwpName, shell=True)		#remove files in server
 
 	uploadfile = "./"+pdfName
