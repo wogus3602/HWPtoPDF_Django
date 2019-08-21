@@ -29,7 +29,7 @@ def echo(req):
 
 	cssFile = fileN[0] + '/styles.css'
 	f = open(cssFile,"a")
-	modifyCss = ".Paper { border: 1px solid white;} body { padding: 0px; }"
+	modifyCss = ".Paper { border: 1px solid white;} body { padding: 0px; white-space:pre-wrap; }"
 	f.write(modifyCss)
 	f.close()
 
