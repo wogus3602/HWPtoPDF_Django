@@ -24,7 +24,7 @@ def echo(req):
 	pdfName=fileN[0]+'.pdf'					#pdfName=lecture.pdf
 	storage.child(hwpName).download( hwpName , user['idToken'])
 
-	call('hwp5html '+hwpName, shell=True)			#transformation
+	call('/home/jh/HWPtoPDF_Django/home/jh/.local/bin/hwp5html '+hwpName, shell=True)			#transformation
 
 
 	cssFile = fileN[0] + '/styles.css'
