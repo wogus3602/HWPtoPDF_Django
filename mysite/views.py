@@ -31,7 +31,7 @@ def echo(req):
 	f = open(cssFile,"a")
 	modifyCss = ".Paper { border: 1px solid white;} body { padding: 0px; }"
 	f.write(modifyCss)
-	f.close
+	f.close()
 
 	call('wkhtmltopdf -s A5 ./'+fileN[0]+'/index.xhtml '+pdfName, shell=True)
 	call('rm -rf '+fileN[0]+' '+hwpName, shell=True)		#remove files in server
